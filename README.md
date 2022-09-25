@@ -19,8 +19,8 @@ Projeto Chuck Norris foi desenvolvido com intuito de praticar a tecnologia Next.
 
 
 <h2 id=""> Site: </h2>
-Ainda não disponivel
-[]
+
+[https://chucknorris-nextjs.vercel.app/]
 <br />
 
 
