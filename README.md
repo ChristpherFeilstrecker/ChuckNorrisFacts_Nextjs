@@ -61,7 +61,7 @@ API consumida no projeto
 Teste o código no seu navegador pelo surge <a href="#surge">AQUI</a> ou pelo seu computador assim:
 - Clone o código para seu computador.
 - Rode o comando npm instal (para instalar bibliotecas).
-- Rode o comando "npm run start", código ira abrir pelo localhost do seu computador.
+- Rode o comando "npm run dev", abrar pelo localhost:3000 do seu navegador.
 
 
 <a href="#top">Voltar para o topo</a>
