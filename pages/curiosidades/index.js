@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import style from '../../styles/Curiosities.module.css'
 import axios from 'axios'
 import Image from "next/image";
-import useForm from "../../../../Frela/LCW/lcw-front/src/components/hooks/useForm";
+import useForm from "../../components/hooks/useForm";
 
 export async function getStaticProps() {
 
