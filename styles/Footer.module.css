@@ -1,0 +1,16 @@
+.footer{
+    background-color: rgb(99, 97, 97);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer a{
+    color:rgb(180, 177, 177);
+}
+
+.footer a:hover{
+    color:chocolate;
+}

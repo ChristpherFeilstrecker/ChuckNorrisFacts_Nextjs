@@ -1,0 +1,83 @@
+.maincontainer{
+    min-height: 77.5vh;
+}
+
+/* Splash Screem */
+
+.splash{
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    visibility: hidden;
+}
+
+.columnone{
+    position: absolute;
+    background-color: white;
+    height: 100vh;
+    width: 25vw;
+    animation: left 4s ;
+}
+
+.columntwo{
+    position: absolute;
+    background-color: white;
+    height: 100vh;
+    width: 25vw;
+    animation: left 4s ;
+   margin-left:25vw; 
+}
+
+.columnthree{
+    position: absolute;
+    background-color: white;
+    height: 100vh;
+    width: 25vw;
+    animation: left 4s;
+   margin-left:50vw; 
+}
+
+.columnfour{
+    position: absolute;
+    background-color: white;
+    height: 100vh;
+    width: 25vw;
+    animation: left 4s ;
+   margin-left:75vw; 
+}
+
+
+
+@keyframes left {
+    0% {
+        visibility: visible;
+        width: 25vw;
+    }
+    50% {
+        width: 25vw;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+.imgsplashcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: chuck 4s ;
+}
+
+@keyframes chuck {
+    0% {opacity:1;
+        visibility: visible;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,27 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btncontainer{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn{
+    color: chocolate;
+    cursor:pointer;
+}
+
+.btn:hover{
+    color: blue;
+}

@@ -1,0 +1,11 @@
+.erro{
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    color: chocolate;
+}
